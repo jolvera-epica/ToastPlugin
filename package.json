@@ -1,0 +1,22 @@
+{
+    "name": "toast-plugin",
+    "version": "1.0.0",
+    "description": "Un plugin para mostrar Toast en Android",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Arturo Olvera",
+    "license": "MIT",
+    "dependencies": {
+      "cordova": "^10.0.0"
+    },
+    "devDependencies": {},
+    "cordova": {
+      "id": "toast-plugin",
+      "platforms": [
+        "android"
+      ],
+      "plugins": []
+    }
+  }
