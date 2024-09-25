@@ -46,8 +46,7 @@ public class ToastPlugin extends CordovaPlugin {
 
                 getSessionToken(sessionToken -> {
                         showToastLooper("Token:"+sessionToken);
-                         final Context context = this.cordova.getActivity().getApplicationContext();
-                       //new LivenessCheckProcessor(sessionToken, cordova.getActivity().getApplicationContext());
+                        LivenessCheckProcessor LivenessCheckProcessor = new LivenessCheckProcessor(sessionToken, this.cordova.getActivity());
                     }
         );
             }
