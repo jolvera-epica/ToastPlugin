@@ -20,13 +20,13 @@ xmlns="http://apache.org/cordova/ns/plugins/1.0"
 
         <source-file src="src/android/ToastPlugin.java" target-dir="src/com/ejemplo/toast" />
         <source-file src="src/android/Config.java" target-dir="src/com/ejemplo/toast" />
+        <source-file src="src/android/NetworkingHelpers.java" target-dir="src/com/ejemplo/toast" />
+        <source-file src="src/android/LivenessCheckProcessor.java" target-dir="src/com/ejemplo/toast" />
         <framework src="src/android/toast-plugin.gradle" custom="true" type="gradleReference"/>
         <resource-file src="src/android/facetec-sdk-9.7.33.aar" target="libs/facetec-sdk-9.7.33.aar" />
-       
 
     </platform>
 
 
 </plugin>
-
 
