@@ -1,0 +1,14 @@
+repositories {
+    jcenter()
+    flatDir{
+        dirs 'src/main/libs'
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.facetec:facetec-sdk:9.7.33@aar'
+    implementation 'com.squareup.okhttp3:okhttp:3.12.13'
+    implementation 'com.squareup.okio:okio:1.15.0'
+    implementation 'com.google.code.gson:gson:2.10'
+}
